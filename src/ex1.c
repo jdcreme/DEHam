@@ -144,6 +144,7 @@ int main(int argc,char **argv)
 //    }
       for(ll=0;ll<getdata.nnz;ll++){
 
+        // Be carefule to initialize iii2 before
         iii2=i+ll;
 //      printf("%d) ll=%d countcol=%d\n",i,ll,tcountcol[ll]+1);
         for(kk=0;kk<tcountcol[ll]+1;kk++){
